@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.userCard {
+  border: 1px solid blue;
+  border-radius: 30px;
+  width: 200px;
+  padding-top: 3%;
+}
+
+.userFoto {
+  border: 1px solid red;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.colorStar {
+  border: 1px solid blue;
+  border-radius: 50%;
+  background-color: blue;
+  width: 20px;
+  color: orange;
+  list-style: none;
+  margin: -20px;
+  margin-left: 88px;
+}
+
+h1 {
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+p {
+  font-size: 10px;
+  color: grey;
+  padding-top: 20px;
+}
+
+.userInfo {
+  background-color: rgb(238, 240, 244);
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkColor-a {
+  color: rgb(0, 153, 255);
+  padding: 5px 50px 5px 50px;
+  border: 1px solid rgb(0, 153, 255);
+  border-radius: 10px;
+  background-color: white;
+}
+.linkColor-b {
+  color: white;
+  padding: 5px 40px 5px 40px;
+  border: 1px solid rgb(0, 153, 255);
+  border-radius: 10px;
+  background-color: rgb(0, 153, 255);
+}
+
+.bottom-a {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.bottom-b {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.colorLine {
+  color: red;
+}
