@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 20px;
+  display: flex;
+
+  margin-top: 5%;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 200px;
+
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+/* .userFoto {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzzEkAJlMZ3eWDffWMKEwSYZIcIpb4n2SJKA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.name {
+  position: relative;
+  top: 280px;
+  color: aliceblue;
+}
+
+.userFoto {
+  border: 0;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+
+.colorStar-a {
+  position: relative;
+  text-align: center;
+  font-size: 2.2em;
+  box-shadow: 0px 5px 15px 1px red;
+  bottom: 20px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  color: rgb(238, 240, 244);
+  list-style: none;
+
+  margin-left: 90px;
+}
+
+.colorStar-a p {
+  margin: 0;
+
+  position: absolute; /* 2 */
+  top: 50%; /* 3 */
+  left: 22%;
+  transform: translate(0, -50%);
+}
+
+.userInfo {
+  display: flex;
+
+  justify-content: space-between;
+}
